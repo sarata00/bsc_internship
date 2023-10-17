@@ -1,6 +1,4 @@
 # BSC project
-![alt text](https://raw.githubusercontent.com/sarata00/bsc_internship/main/img/bsc_logo.png)
-
 
 
 This repository will contain all the data, scripts and results obtained from my internship in the Barcelona Supercomputing Center (BSC) tutorized by Miguel Romero in the Computational Biology Group (Life Science department).
