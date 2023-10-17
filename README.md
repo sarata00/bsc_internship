@@ -1,5 +1,5 @@
 # BSC project
-<img src="https://github.com/sarata00/bsc_internship/tree/main/img/bsc_logo.png" align="right", width=150, heigth="80">
+![alt text](https://github.com/sarata00/bsc_internship/tree/main/img/bsc_logo.png)
 
 
 
