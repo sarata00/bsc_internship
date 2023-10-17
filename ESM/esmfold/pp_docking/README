@@ -1,0 +1,17 @@
+This folder contains all the files from the protein-protein docking benchmark. 
+
+- In the "data" folder you can find:
+
+    - A second folder called "csv" which contains: the excel from the original data (called Tabl_BM5.xlsx), a second excel with the information of just the monomer-monomer complexes (called mm_list.xlsx) and a text file which all the PDB IDs from the mm_list.xlsx file (list_mm.txt).
+    
+    - The result of running the scripts (fasta sequences).
+
+- Then in the "scripts" folder:
+
+    - We have the `download_fasta.py` script which takes an input a text file that contains PDB ids per line and outputs a FASTA file with all the sequences of those PDBs. The way we called it:
+
+            python download_fasta.py list.txt output_fasta.fasta
+
+    - The `limited_files.py` takes an input FASTA files and outputs a new FASTA file but with all those sequences with a limited (n) sequence length (given as agument).
+
+            python limited_files.py input.fasta limited.fasta 650
