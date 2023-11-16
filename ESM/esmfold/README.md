@@ -89,7 +89,7 @@ because is the only login with internet conexion:
 
 The `esmfold_from_multifasta_new.py` should be inside this scratch folder, where the .sh file is. In my local computer I have this script in the following directory `/home/sara/Documents/BSC_internship/ESM2/esmfold/scripts`
 
-After that, we can run the model and create structures by running:
+After that, we can run the model and model structures by running:
 
 	sbatch esmfold_run.sh
 
